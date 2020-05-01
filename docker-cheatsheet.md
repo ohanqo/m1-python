@@ -13,6 +13,7 @@
 ## Visualisation de tous les containers en cours d'éxécution
 ```$ docker ps```
 > ```$ docker container ls``` reproduit la même chose
+> ```$ docker ps -a``` affiche les containers cachés
 
 ## Connexion au bash d'un container en cours d'éxécution
 ```$ docker exec -it <CONTAINER ID> /bin/bash```
